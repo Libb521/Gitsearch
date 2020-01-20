@@ -10,12 +10,12 @@ import { HttpClient } from '@angular/common/http';
 export class ProfileService {
 
   public username: string;
-  public clientid:'088761f8956b9ece1dbb';
-  public clientsecret:'9f9f07b89d82b755d55281498cf9279ccc03d0a4';
+  public clientid:'3e553d627765c29a7ef1';
+  public clientsecret:'ea174daa7407d6b9bc96258a1459da1511c099d2';
 
   constructor(public http:HttpClient) {
     console.log("service is now ready!");
-    this.username = 'JamesOdera';
+    this.username = 'Libb521';
    }
 
    getProfileInfo(){
