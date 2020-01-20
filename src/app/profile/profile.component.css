@@ -1,12 +1,18 @@
-body {
+body{
     height: 50%;
+    background-image: url("src/assets/background-blur-clean-clear-531880.jpg");
+    background-position: center;
+    background-attachment: fixed;
 }
 
 .search-form{
     padding-top: 50px;
-    background-color: rgb(107, 107, 107);
+   margin-right: 50px;
+   margin-left: 50px;
+    background-color: rgb(180, 44, 235);
     color: white;
     text-align: center;
+    border-radius: 15px;
 }
 
 .avatar {
@@ -18,9 +24,10 @@ body {
   }
 
 .boxx {
-    background-color: rgb(224, 116, 15);
-    padding: 30px;
-    padding-bottom: 250px;
+    /* background-image: url("src/assets/background-blur-clean-clear-531880.jpg"); */
+    /* background-color: rgb(180, 44, 235);
+    padding: 30px; */
+    padding-bottom: 350px;
     
 }
 
@@ -42,12 +49,12 @@ body {
 
 #para{
     float: right;
-    background-color: rgb(224, 116, 15);
+    background-color:rgb(180, 44, 235);
     color: white;
 }
 
 #par{
-background-color: black;
+/* background-color: black; */
 }
 #par:hover {
     background-color: white;
