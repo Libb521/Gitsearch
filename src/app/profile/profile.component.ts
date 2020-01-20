@@ -8,7 +8,7 @@ import { ProfileService } from '../profile.service';
 })
 export class ProfileComponent implements OnInit {
 
-  public profile: any;
+  profile: any;
   repos: any;
   username: string;
 
