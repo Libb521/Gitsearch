@@ -18,8 +18,9 @@ body {
   }
 
 .boxx {
-    background-color: turquoise;
+    background-color: rgb(224, 116, 15);
     padding: 30px;
+    padding-bottom: 250px;
     
 }
 
@@ -41,7 +42,7 @@ body {
 
 #para{
     float: right;
-    background-color: rgb(37, 37, 37);
+    background-color: rgb(224, 116, 15);
     color: white;
 }
 
