@@ -1,5 +1,6 @@
+<body>
 <form class="search-form">
-    <h1>Git-Search Profile</h1>
+    <h1>GitHub Search</h1>
     <div class="form-group">
         <input type="text" class="form-control"  placeholder="Search git users with username"  [(ngModel)]="username" name="username" (keyup)="findProfile()">
     </div>
@@ -9,7 +10,7 @@
     <div class="container">
         <div>
             {{profile.name}}   <small>{{profile.login}}</small>
-            <!-- <span *ngIf='profile.company'>Works at {{profile.company}}</span> -->
+            
             {{profile.location}}
         </div>
     </div>
@@ -58,4 +59,5 @@
         </p>
     </div>
 </div>
-
+<p>©Libb521 | 2020</p>
+</body>
