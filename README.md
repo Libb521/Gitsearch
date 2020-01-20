@@ -1,53 +1,46 @@
-# Author
-
-James Odera
+# G-Search
+#### 20/01/2020
+#### By **Elizabeth Ayiemba Otieno**
 
 ## Description
+- 
+This project has been generated using Angular CLI. This web application that allows users to search a github username and the users repositories will be displayed alongside their profile details without any limitations.
 
-This is an app that enables the user to search other peoples github profiles through their username 
-
-# GitSearch
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.21.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-
-## Installations
-
-## Cloning
-Make sure you have all the Requirements or running angular apps installed such as node,npm,
-Clone the project into your machine from https://github.com/JamesOdera/git-search.git
-Run ng serve for a dev server. Navigate to http://localhost:4200/. The app will automatically reload if you change any of the source files.'''
-
-## Technology Used
-- Angular JS
-- HTML
-- CSS
+## Behaviour Driven Development(BDD)
 
 
-## [![codebeat badge](https://codebeat.co/badges/c5abc07f-75b6-4d3a-9075-ab8ea2115f0b)](https://codebeat.co/projects/github-com-jamesodera-git-search-master)
+| Input                        | Ouput                                                                                            |
+|--------------------------    |----------------------------------------------------------------------------------------------    |
+| Clicks search user    | Users details will be displayed                  |
+| Clicks Search repos         | User Repositories are displayed             |
+
+
+## Setup/Installation requirements
+
+
+- Clone  or download and unzip the repository from github, [https://github.com/Libb521/Gitsearch](https://github.com/Libb521/Gitsearch).
+- If you have git Use this command `git clone *` to clone the project.
+- Run ng serve from your terminal
+
+## Live Demo
+To view the page click on the link below
+* [https://libb521.github.io/Gitsearch.github.io/](*)
+
+
+
+
+## Technologies Used
+- Angular CLI
+
+## Known Bugs
+- There are no known bugs currently. The page works as expected. But incase you encounter any, kindly contact me through my details provided on this page.
+
+## Support and Contact Details
+- For any comments,suggestions,feedback, collaborations or inquiries, kindly contact me through email: `eotieno39@yahoo.com`
+
+
+## License
+- This project is licensed under the MIT Open Source license Copyright (c) 2020. [Elizabeth Ayiemba Otieno](https://github.com/Libb521/Gitsearch.github.io)
 
 
 Copyright (c) 2020
