@@ -58,9 +58,7 @@ body{
 
 }
 
-#par{
-/* background-color: black; */
-}
+
 #par:hover {
     background-color: white;
     color: black;
