@@ -24,7 +24,7 @@ This project has been generated using Angular CLI. This web application that all
 
 ## Live Demo
 To view the page click on the link below
-* [https://libb521.github.io/Gitsearch.github.io/](*)
+* [https://libb521.github.io/Gitsearch/](*)
 
 
 
