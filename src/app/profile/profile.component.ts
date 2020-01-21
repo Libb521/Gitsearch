@@ -39,6 +39,9 @@ export class ProfileComponent implements OnInit {
    }
 
   ngOnInit() {
+    this.profileService.updateProfile('Libb521');
+    this.profileService.getProfileInfo().subscribe(profile => this.profile =profile);
+    this.profileService.getProfileRepos().subscribe(repos => this.repos =repos );
   }
 
 }
