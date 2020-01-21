@@ -32,6 +32,8 @@ To view the page click on the link below
 ## Technologies Used
 - Angular CLI
 
+[![codebeat badge](https://codebeat.co/badges/5cfc5cda-ef10-48e1-a2e6-0155fded4f54)](https://codebeat.co/projects/github-com-libb521-gitsearch-master)
+
 ## Known Bugs
 - There are no known bugs currently. The page works as expected. But incase you encounter any, kindly contact me through my details provided on this page.
 
