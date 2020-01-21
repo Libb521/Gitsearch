@@ -13,7 +13,7 @@ export class ProfileService {
   public clientsecret:'ea174daa7407d6b9bc96258a1459da1511c099d2';
 
   constructor(public http:HttpClient) {
-    console.log("service is now ready!");
+    console.log("service is ready for use!");
     this.username = 'Libb521';
    }
 
@@ -28,7 +28,7 @@ export class ProfileService {
 
    updateProfile(username: string){
      this.username = username;
-     
+
    }
 
 
