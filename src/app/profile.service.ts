@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+// import { EnvironmentService} from '..environments/environment';
 
 
 
@@ -9,8 +10,8 @@ import { HttpClient } from '@angular/common/http';
 export class ProfileService {
 
   public username: string;
-  public clientid:'3e553d627765c29a7ef1';
-  public clientsecret:'ea174daa7407d6b9bc96258a1459da1511c099d2';
+  public apiKey: '2ca02deba1e11dc968562ca761ea7d516c1d4287';
+
 
   constructor(public http:HttpClient) {
     console.log("service is ready for use!");
@@ -18,11 +19,11 @@ export class ProfileService {
    }
 
    getProfileInfo(){
-     return this.http.get("https://api.github.com/users/" + this.username + "?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
+     return this.http.get("https://api.github.com/users/" + this.username + "?access_tokens=2ca02deba1e11dc968562ca761ea7d516c1d4287")
    };
 
    getProfileRepos(){
-    return this.http.get("https://api.github.com/users/" + this.username + "/repos?client_id=" + this.clientid + "&client_secret=" + this.clientsecret)
+    return this.http.get("https://api.github.com/users/" + this.username + "/repos?access_tokens=2ca02deba1e11dc968562ca761ea7d516c1d4287")
    }
 
 
