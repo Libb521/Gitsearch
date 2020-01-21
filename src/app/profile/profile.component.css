@@ -55,7 +55,7 @@ body{
     float: right;
     background-color:rgb(252, 165, 53);
     color: white;
-    
+
 }
 
 #par{
@@ -83,4 +83,7 @@ body{
     padding-top: 7px;
     padding-left: 35px;
     
+}
+.clearfix{
+    border-color: maroon;
 }
